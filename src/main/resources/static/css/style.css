@@ -1,0 +1,17 @@
+a, a:link{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container-fluid{
+    height: 60px;
+    background-color: lightgrey;
+}
+
+.container{
+    margin-top: 60px;
+}
+
+.hide{
+    display: none;
+}

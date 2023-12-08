@@ -1,0 +1,29 @@
+.container-content{
+    height: 60px;
+    background-color: lightgrey;
+}
+
+.container-content:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.container-information{
+    width: 95%;
+    align-items: center;
+    justify-content: left;
+}
+
+.container-information span{
+    padding-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icon-content{
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-content i{
+    font-size: 30px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Container</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e606e8ffce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+        <a href="home.html" class="navbar-brand mb-0 h1">CRUD | CONTAINER</a>
+    </div>
+</nav>
+
+<div class="container">
+    <form id="containerForm">
+        <div class="mb-3">
+            <label for="loaded" class="form-label">Loaded</label>
+            <select class="form-control" id="loaded" aria-label="Default select example">
+                <option value="">...</option>
+                <option value="1">FCL</option>
+                <option value="2">LCL</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="content" class="form-label">Content</label>
+            <textarea class="form-control" id="content"></textarea>
+        </div>
+        <div class="mb-3 text-center">
+            <button type="submit" class="btn btn-primary">Update</button>
+            <button id="btnDelete" type="button" class="btn btn-danger">Delete</button>
+        </div>
+    </form>
+</div>
+
+<script src="js/container.js"></script>
+</body>
+</html>
